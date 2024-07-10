@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>pvp_mode</class>
+    <widget class="QWidget" name="pvp_mode">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>782</width>
+                <height>478</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>pvp mode</string>
+        </property>
+        <property name="styleSheet">
+            <string notr="true">background-color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 255), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
+        </property>
+        <widget class="QStackedWidget" name="stacked">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>10</y>
+                    <width>791</width>
+                    <height>511</height>
+                </rect>
+            </property>
+            <widget class="QWidget" name="page">
+                <widget class="QLabel" name="label">
+                    <property name="geometry">
+                        <rect>
+                            <x>70</x>
+                            <y>110</y>
+                            <width>172</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.025, y1:0, x2:0.04, y2:0.0113636, stop:1 rgba(255, 255, 255, 124));
+                            border-radius: 20px;</string>
+                    </property>
+                    <property name="text">
+                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enter the player 1 name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_2">
+                    <property name="geometry">
+                        <rect>
+                            <x>510</x>
+                            <y>110</y>
+                            <width>172</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.025, y1:0, x2:0.04, y2:0.0113636, stop:1 rgba(255, 255, 255, 124));
+                            border-radius: 20px;</string>
+                    </property>
+                    <property name="text">
+                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Enter the player 2 name:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                </widget>
+                <widget class="QPlainTextEdit" name="player_1_name">
+                    <property name="geometry">
+                        <rect>
+                            <x>70</x>
+                            <y>190</y>
+                            <width>171</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.025, y1:0, x2:0.04, y2:0.0113636, stop:1 rgba(255, 255, 255, 124));</string>
+                    </property>
+                </widget>
+                <widget class="QPlainTextEdit" name="player_2_name">
+                    <property name="geometry">
+                        <rect>
+                            <x>510</x>
+                            <y>190</y>
+                            <width>171</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:0.025, y1:0, x2:0.04, y2:0.0113636, stop:1 rgba(255, 255, 255, 124));</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="pushButton">
+                    <property name="geometry">
+                        <rect>
+                            <x>290</x>
+                            <y>390</y>
+                            <width>171</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">border-radius: 10 px;
+                            border-color: black;
+                            font: 57 16pt &quot;Ubuntu Sans&quot;;
+                            color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                        <string>submit</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="label_3">
+                    <property name="geometry">
+                        <rect>
+                            <x>240</x>
+                            <y>50</y>
+                            <width>271</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+                            color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:28pt; font-weight:600;&quot;&gt;pvp mode&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                    </property>
+                </widget>
+            </widget>
+            <widget class="QWidget" name="page_2">
+                <widget class="QLabel" name="round_counter">
+                    <property name="geometry">
+                        <rect>
+                            <x>190</x>
+                            <y>150</y>
+                            <width>381</width>
+                            <height>61</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+                            color: rgb(255, 255, 255);
+                            font: 75 36pt &quot;Ubuntu Sans&quot;;
+                            align=&quot;center&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Round 1</string>
+                    </property>
+                    <property name="scaledContents">
+                        <bool>false</bool>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+                <widget class="QPushButton" name="round_btn">
+                    <property name="geometry">
+                        <rect>
+                            <x>290</x>
+                            <y>380</y>
+                            <width>171</width>
+                            <height>41</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">border-radius: 10 px;
+                            border-color: black;
+                            font: 57 16pt &quot;Ubuntu Sans&quot;;
+                            color: rgb(255, 255, 255);</string>
+                    </property>
+                    <property name="text">
+                        <string>start</string>
+                    </property>
+                </widget>
+                <widget class="QLabel" name="gdround">
+                    <property name="geometry">
+                        <rect>
+                            <x>180</x>
+                            <y>250</y>
+                            <width>391</width>
+                            <height>61</height>
+                        </rect>
+                    </property>
+                    <property name="styleSheet">
+                        <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:1, stop:1 rgba(0, 0, 0, 0));
+                            color: rgb(255, 255, 255);
+                            font: 75 36pt &quot;Ubuntu Sans&quot;;
+                            align=&quot;center&quot;;</string>
+                    </property>
+                    <property name="text">
+                        <string>Game over</string>
+                    </property>
+                    <property name="scaledContents">
+                        <bool>false</bool>
+                    </property>
+                    <property name="alignment">
+                        <set>Qt::AlignCenter</set>
+                    </property>
+                    <property name="wordWrap">
+                        <bool>false</bool>
+                    </property>
+                </widget>
+            </widget>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
